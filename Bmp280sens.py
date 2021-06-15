@@ -13,12 +13,16 @@ def altitude(pressure,temperature):
     den=.0065
     return (num/den)
 
+def getTimestamp():
+    now=datetime.datetime.now()
+    print(now)
+    
 
 def stats():
     print "temperature : ", temperature,"C"
     print "pressure : %.3f" % pressure + " hPa"
     print "altitude : %.3f" % altitude(pressure,temperature) + " m"
-    print "timestamp : ", datestamp(datetime)
+    print "timestamp : ", getTimestamp()
 
 
 while True:
