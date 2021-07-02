@@ -2,9 +2,9 @@
 
 **Requirements**
 ---
--Python 3.8
--BME280 sensor
--Raspberry Pi 3+ (or any model that supports sensor)
+- Python 3.8
+- BME280 sensor
+- Raspberry Pi 3+ (or any model that supports sensor)
 
 **Description**
 ---
