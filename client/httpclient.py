@@ -2,8 +2,8 @@ import base64
 
 import requests
 
-user: str = "Mal"
-password: str = "MGSgQYPRuI"
+user: str = ""
+password: str = ""
 
 
 def postAtp(temperature, pressure, altitude, timestamp):
